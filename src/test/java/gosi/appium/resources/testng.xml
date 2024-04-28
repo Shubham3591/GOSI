@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GOSI Mobile Application Test Automation Test Suite">
+
+
+	<test name="GOSI Mobile App Test Cases">
+		<classes>
+			<class name="gosi.appium.testCases.LogInPageTest"></class>
+			<class name="gosi.appium.testCases.DashboardPageTest"></class>
+		</classes>
+	</test>
+</suite>
